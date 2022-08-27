@@ -1,0 +1,36 @@
+{
+	"name": "weather-cli",
+	"type": "module",
+	"version": "1.1.0",
+	"description": "Weather app with cli in Node.js",
+	"main": "weather.js",
+	"bin": {
+		"weather": "weather.js"
+	},
+	"scripts": {
+		"start": "node weather.js",
+		"start:dev": "nodemon weather.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xattabuz/weather-cli.git"
+	},
+	"keywords": [
+		"cli",
+		"weather",
+		"weather-cli",
+		"weather-cli-app",
+		"weather-node",
+		"weather-nodejs"
+	],
+	"author": "Diyorbek Rustamjonov <drustamjonov0919@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xattabuz/weather-cli/issues"
+	},
+	"homepage": "https://github.com/xattabuz/weather-cli#readme",
+	"dependencies": {
+		"chalk": "^5.0.1",
+		"dedent-js": "^1.0.1"
+	}
+}
